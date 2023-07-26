@@ -1,0 +1,14 @@
+name = "brownianmotion"
+version = "0.1.0"
+license = "license"
+author = "Aurelio Maltes"
+maintainer = "emiaure@gmail.com"
+copyright = "Copyright 2023, Jane Doe"
+[[executable]]
+name = "brown"
+source-dir= "app"
+main = "main.f90"
+[install]
+library = false
+[dependencies]
+stdlib = "*"
